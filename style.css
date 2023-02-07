@@ -1,0 +1,67 @@
+body {
+    font-size: 19px;
+    background-image: linear-gradient( to right,  rgb(20, 147, 220), rgb(17, 54, 71));
+   
+}
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 6px;
+    line-height: 20px;
+}    
+
+fieldset {
+    border: 3px solid #D2691E;
+    border-radius: 6px;
+    padding: 35px;
+    margin-top: auto;
+}
+
+legend {
+    text-align: center;
+    font-size: 24px;
+    background: #D2691E;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.inputbox {
+    position: relative;
+    padding:  15px;
+    display: block;
+}
+
+.inputuser {
+    background: none;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 2px;
+    width: 100%;
+}
+
+.genero {
+    text-align: center;
+}
+
+.enviar {
+    background: #CD853F;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: bold;
+    width: 100%;
+    padding: 20px;
+    border-radius: 6px;
+    transition: 2s all;
+}
+
+.enviar:hover {
+    background: #DAA520;
+    cursor: pointer;
+    transform: scale(1.2);
+}

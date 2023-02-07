@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+
+        <title>Formulário</title>
+    </head>
+    <body>
+        <div class="box">
+            <form>
+                <fieldset>
+                    <legend>Cadastro de Clientes</legend>
+                    <br>
+
+                    <div class="inputbox">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" required class="inputuser">
+                    </div>      
+                    <div class="inputbox">
+                       
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" name="sobrenome" id="sobrenome" required class="inputuser">
+                    </div>  
+                    <div class="inputbox"> 
+                       
+                        <label for="cpf">CPF</label>
+                        <input type="number" name="cpf" id="cpf" required class="inputuser">
+                    </div>
+                    <div class="inputbox">    
+                        
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" name="telefone" id="telefone" required class="inputuser">
+                    </div> 
+                    <div class="inputbox">  
+                        
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" required class="inputuser">     
+                    </div>
+                    <div class="genero">
+                        <p>Sexo:</p>
+
+                        <label for="femenino">Femenino</label>
+                        <input type="radio" name="genero" value="femenino" id="femenino" class="inputuser">
+                    
+                        <label for="masculino">Masculino</label>
+                        <input type="radio" name="genero" value="masculino" id="masculino" class="inputuser">
+
+                        <label for="outros">Outros</label>
+                        <input type="radio" name="genero" value="outros" id="outros" class="inputuser" checked>
+
+                        <div>
+                            <br>
+                            <input type="submit" name="submit" class="enviar">
+                        </div>    
+                    </div>  
+
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
